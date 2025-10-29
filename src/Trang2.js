@@ -58,7 +58,7 @@ const Trang2 = () => {
         display: "flex",
         justifyContent: "center", // Căn giữa ngang
 
-        backgroundColor: "#f9f9f9", // Tuỳ chọn
+        backgroundColor: "#F1E5FF", // Tuỳ chọn
         padding: "20px",
       }}
     >
@@ -80,8 +80,8 @@ const Trang2 = () => {
               borderRadius: "8px",
               padding: "10px",
               textAlign: "center",
-              color: "#FAEBEF",
-              backgroundColor: "#0E4274", //Đổi màu
+              color: "#FAEBEF", //màu chữ
+              backgroundColor: "#0E4274", //màu xanh nền
               boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
             }}
           >
