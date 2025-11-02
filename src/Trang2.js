@@ -40,50 +40,82 @@ const Trang2 = () => {
   return (
     <div
       style={{
-        minHeight: "100vh", // Chiếm toàn bộ chiều cao màn hình
+        minHeight: "100vh",
         display: "flex",
-        justifyContent: "center", // Căn giữa ngang
-
-        backgroundColor: "#141414", // Tuỳ chọn
-        padding: "20px",
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: "#0d0d0d", // nền đen sâu
+        padding: "40px",
+        fontFamily: "Inter, sans-serif",
+        color: "#f5f5f5",
       }}
     >
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))",
-          gap: "16px",
-          maxWidth: "1000px", // Giới hạn chiều rộng
+          gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+          gap: "24px",
           width: "100%",
+          maxWidth: "1000px",
         }}
       >
-        {dssv.map((motsinhvien) => (
+        {dssv.map((sv) => (
           <div
-            key={motsinhvien.id}
+            key={sv.id}
             style={{
-              height: "300px",
-              border: "1px solid #ddd",
-              borderRadius: "8px",
-              padding: "10px",
-              textAlign: "center",
-              color: "#ffffff", //màu chữ
-              backgroundColor: "#333132", //màu nền
-              boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
+              backgroundColor: "#1c1c1e", // nền thẻ tối hơn
+              borderRadius: "12px",
+              overflow: "hidden",
+              boxShadow: "0 4px 12px rgba(0,0,0,0.3)",
+              transition: "transform 0.3s ease, box-shadow 0.3s ease",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = "scale(1.05)";
+              e.currentTarget.style.boxShadow = "0 8px 20px rgba(0,0,0,0.5)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = "scale(1)";
+              e.currentTarget.style.boxShadow = "0 4px 12px rgba(0,0,0,0.3)";
             }}
           >
             <img
-              src={motsinhvien.anh}
-              alt={motsinhvien.hoten}
+              src={sv.anh}
+              alt={sv.hoten}
               style={{
-                height: "140px",
-
+                width: "180%",
+                height: "250px",
                 objectFit: "cover",
-                borderRadius: "6px",
               }}
             />
-            <h3 style={{ margin: "10px 0 5px" }}>{motsinhvien.hoten}</h3>
-            <p>{motsinhvien.lop}</p>
-            <p>{motsinhvien.email}</p>
+            <div style={{ padding: "15px" }}>
+              <h3
+                style={{
+                  margin: "8px 0 4px",
+                  fontSize: "16px",
+                  color: "#ffffff",
+                }}
+              >
+                {sv.hoten}
+              </h3>
+              <p
+                style={{
+                  margin: "4px 0",
+                  color: "#cccccc",
+                  fontSize: "14px",
+                }}
+              >
+                {sv.lop}
+              </p>
+              <p
+                style={{
+                  margin: "0",
+                  fontSize: "13px",
+                  color: "#888888",
+                }}
+              >
+                {sv.email}
+              </p>
+            </div>
           </div>
         ))}
       </div>
