@@ -2,52 +2,38 @@ const Trang2 = () => {
   const dssv = [
     {
       id: 1,
-      hoten: "Kim Namjoon",
-      lop: "BTS",
-      email: "Bangtan@1306.bighit.com",
-      anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUm9VMD2w9IYrs34o5qRoTYKrYAWGErKr4aEs9s1pmz6j-tjlPZvP9u2qzx9IUamdGl7_9CQ",
+      hoten: "Choi Hyeonjun",
+      lop: "T1 Doran",
+      email: "Choihyeonjun.soc.com",
+      anh: "https://specs.gg/assets/include/upload/image.php?name=Doran&t=2025-11-02%2016:41:48",
     },
     {
       id: 2,
-      hoten: "Kim Seok Jin",
-      lop: "BTS",
-      email: "Bangtan@1306.bighit.com",
-      anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ1EmYGPaINBJD1vmU7t1M_3jkMqCZ-e7m3ggLObx7kNyHEUtdShYzFXpFLvVEa9Hd6TUYtw",
+      hoten: "Mun Hyeonjun",
+      lop: "T1 Oner",
+      email: "Munhyeonjun.ho.com",
+      anh: "https://specs.gg/assets/include/upload/image.php?name=Oner&t=2025-11-02%2016:55:16",
     },
     {
       id: 3,
-      hoten: "Min Yoongi",
-      lop: "BTS",
-      email: "Bangtan@1306.bighit.com",
-      anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPdC-LOaqdZgAUM2iIdaeGQdP6lrU3peutAAUo20AP_p1isJ9CH4RsqYY6S49QOcTskCPBgw",
+      hoten: "Lee Sanghyeok",
+      lop: "T1 Faker",
+      email: "Leesanghyeok.meo.com",
+      anh: "https://specs.gg/assets/include/upload/image.php?name=Faker&t=2025-11-02%2017:24:52",
     },
     {
       id: 4,
-      hoten: "Jung Hoseok",
-      lop: "BTS",
-      email: "Bangtan@1306.bighit.com",
-      anh: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSoLi1knQdKVux88d85rLSYm2LZxaDniymn7E9Lrg3vG5itRZemm-dhA07TltjahHzdeZEiQQ",
+      hoten: "Lee Minhyung",
+      lop: "T1 Gumayusi",
+      email: "Leeminhyung.gau.com",
+      anh: "https://specs.gg/assets/include/upload/image.php?name=4113098964ff00a5250ad&t=2025-11-02%2017:22:15",
     },
     {
       id: 5,
-      hoten: "Park Jimin",
-      lop: "BTS",
-      email: "Bangtan@1306.bighit.com",
-      anh: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRPBAsZKlbWf4qGCQUw-hbfm3CwxsuaQGA5cL6w-HyqU5PFcrKtRpjFxvNcFbaVxMdWb_I9Jw",
-    },
-    {
-      id: 6,
-      hoten: "Kim Taehyung",
-      lop: "BTS",
-      email: "Bangtan@1306.bighit.com",
-      anh: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTxY7MDPS-6xE-D1-cvCnEiafR92n4p_oraBo88E2Wll2R3vYOfXw5MQZ0IS0rgnU-eH-mk",
-    },
-    {
-      id: 7,
-      hoten: "Jeon Jungkook",
-      lop: "BTS",
-      email: "Bangtan@1306.bighit.com",
-      anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdG3f3t4CJ-IIymicdR05e6YfAcGbyLTT_qgOfMQbDgy81cWR94CJSLw3B2kWTuOL5fKRg",
+      hoten: "Ryu Minseok",
+      lop: "T1 Keria",
+      email: "Ryuminseok.cun.com",
+      anh: "https://specs.gg/assets/include/upload/image.php?name=Keria&t=2025-11-02%2017:13:16",
     },
   ];
 
@@ -58,7 +44,7 @@ const Trang2 = () => {
         display: "flex",
         justifyContent: "center", // Căn giữa ngang
 
-        backgroundColor: "#F1E5FF", // Tuỳ chọn
+        backgroundColor: "#141414", // Tuỳ chọn
         padding: "20px",
       }}
     >
@@ -80,8 +66,8 @@ const Trang2 = () => {
               borderRadius: "8px",
               padding: "10px",
               textAlign: "center",
-              color: "#FAEBEF", //màu chữ
-              backgroundColor: "#0E4274", //màu xanh nền
+              color: "#ffffff", //màu chữ
+              backgroundColor: "#333132", //màu nền
               boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
             }}
           >
@@ -106,3 +92,4 @@ const Trang2 = () => {
 };
 
 export default Trang2;
+
