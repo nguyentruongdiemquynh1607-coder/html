@@ -148,7 +148,7 @@ a {
   justify-content: space-between;
 }
 #header .logo {
-  max-width: 250px;
+  max-width: 160px;
 }
 
 /* Menu */
@@ -615,5 +615,6 @@ a {
     transform: translateY(-10px);
   }
 }
+
 
 
