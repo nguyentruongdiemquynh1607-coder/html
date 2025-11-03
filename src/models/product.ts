@@ -12,39 +12,40 @@ export interface Product {
 export const products: Product[] = [
   {
     id: 1,
-    title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-    price: 109.95,
+    title: "2025 T1 Worlds Uniform Jacket",
+    price: 153.0,
     description:
-      "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "T1 team uniform jacket. Owning them is an honor when you are a die-hard fan of T1.",
     category: "men's clothing",
-    image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png",
+    image:
+      "https://cafe24img.poxo.com/t1shopgg/web/product/small/202510/7c5479ad91536fd15c35a32f84272bcb.png",
     rating: {
-      rate: 3.9,
-      count: 120,
+      rate: 5.0,
+      count: 1000,
     },
   },
   {
     id: 2,
-    title: "Mens Casual Premium Slim Fit T-Shirts ",
-    price: 22.3,
+    title: "2025 T1 Worlds Uniform Jersey ",
+    price: 113.0,
     description:
-      "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "T1 team uniform t-shirt. With super cool design and high quality material, you will feel comfortable and pleasant when wearing.",
     category: "men's clothing",
     image:
-      "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png",
+      "https://cafe24img.poxo.com/t1shopgg/web/product/big/202510/33f8920488cd0868cd0149d3e307ed53.png",
     rating: {
-      rate: 4.1,
+      rate: 5.0,
       count: 259,
     },
   },
   {
     id: 3,
-    title: "Mens Cotton Jacket",
-    price: 55.99,
-    description:
-      "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+    title: "2025 T1 2nd Uniform Pants",
+    price: 79.99,
+    description: "The product is suitable for t-shirts and jackets",
     category: "men's clothing",
-    image: "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png",
+    image:
+      "https://cafe24img.poxo.com/t1shopgg/web/product/big/202506/d8863b4d1b9add3d134cfc3ce4000892.jpg",
     rating: {
       rate: 4.7,
       count: 500,
@@ -52,105 +53,104 @@ export const products: Product[] = [
   },
   {
     id: 4,
-    title: "Mens Casual Slim Fit",
-    price: 15.99,
+    title: "2025 T1 2nd Uniform Jacket",
+    price: 112.99,
     description:
-      "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "T1 domestic competition uniform. Breathable and comfortable material",
     category: "men's clothing",
-    image: "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_t.png",
+    image:
+      "https://cafe24img.poxo.com/t1shopgg/web/product/big/202506/124e8e5b86715e3595e10b2b242e0d58.jpg",
     rating: {
-      rate: 2.1,
+      rate: 4.1,
       count: 430,
     },
   },
   {
     id: 5,
-    title:
-      "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
-    price: 695,
-    description:
-      "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+    title: "2024 T1 World Champions Uniform Jersey",
+    price: 158.99,
+    description: "T1 2024 World Championship T-Shirt. Unquestionable quality",
     category: "jewelery",
-    image: "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_t.png",
+    image:
+      "https://cafe24img.poxo.com/t1shopgg/web/product/small/202505/10c58fe1d3b2da5a7dc3160de880ec93.jpg",
     rating: {
-      rate: 4.6,
-      count: 400,
+      rate: 5.0,
+      count: 1000,
     },
   },
   {
     id: 6,
-    title: "Solid Gold Petite Micropave ",
-    price: 168,
-    description:
-      "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+    title: "2024 T1 World Champions Uniform Jacket",
+    price: 168.99,
+    description: "The 2024 World Champion's Jacket. The quality is undeniable.",
     category: "jewelery",
-    image: "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_t.png",
+    image:
+      "https://cafe24img.poxo.com/t1shopgg/web/product/big/202505/997b9e6297cd44c25fd27e2a5a862390.jpg",
     rating: {
-      rate: 3.9,
-      count: 70,
+      rate: 5.0,
+      count: 1500,
     },
   },
   {
     id: 7,
-    title: "White Gold Plated Princess",
-    price: 9.99,
-    description:
-      "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+    title: "2025 Happy Keria Day Pajama Set",
+    price: 69.9,
+    description: "Cute pajamas for Keria's birthday",
     category: "jewelery",
-    image: "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_t.png",
+    image:
+      "https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/559410452_793894700059857_7268749519247368544_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=j5fAV3a4llIQ7kNvwGsmNP1&_nc_oc=AdlGoBbNEfWLHbnCGtC_K4ygaLBXSKJjIBgViQBOYpCyded5L1HQZ1odXK78Orv3Axqlyh4ckfmbD_1XQOqzDctP&_nc_zt=23&_nc_ht=scontent.fsgn2-7.fna&_nc_gid=qm0r4KFHn1jhCGVzolTvbQ&oh=00_AfhadpN8AngiAz1hOmoNP7F7CiWED-B6YcRZjWwDDwAYlg&oe=690D2C72",
     rating: {
-      rate: 3,
+      rate: 4.8,
       count: 400,
     },
   },
   {
     id: 8,
-    title: "Pierced Owl Rose Gold Plated Stainless Steel Double",
-    price: 10.99,
-    description:
-      "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    title: "2025 Happy Gumayusi Day Pajama Set",
+    price: 69.99,
+    description: "Cute pajamas for Gumayusi's birthday",
     category: "jewelery",
-    image: "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_t.png",
+    image:
+      "https://scontent.fsgn2-10.fna.fbcdn.net/v/t39.30808-6/482072150_122210569562207337_4310761871000674003_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Twd5jhZ7YTwQ7kNvwEovJIl&_nc_oc=Admgt_5Z6upfjYd-FAp-0Q_ooQB20l6Bi2h2wfITtCmmsW_7F-e8bBqdTSaCmywhkkszrzp5MZBmiY9jD-rZJ1tA&_nc_zt=23&_nc_ht=scontent.fsgn2-10.fna&_nc_gid=x_COShC219YYMKkyyuCdtw&oh=00_AfjKPpB8AfPlrf2Q4HHr4F_faF1i9PfOVPTWjJ039jltOQ&oe=690D12FF",
     rating: {
-      rate: 1.9,
+      rate: 4.9,
       count: 100,
     },
   },
   {
     id: 9,
-    title: "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
-    price: 64,
-    description:
-      "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+    title: "2025 Happy Faker Day Pajama Set",
+    price: 65.55,
+    description: "Cool pajamas for Faker's birthday",
     category: "electronics",
-    image: "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_t.png",
+    image:
+      "https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/495461089_122223983396207337_6621321705270200685_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=3C-c7YxordoQ7kNvwG8rYwp&_nc_oc=Adl6e0h7lV6S5r6M8VePBKoGNx-ejXyj55EoDegQ12K46HSV9KxkMgv-vBJ4hUzCfrKiFjtry8yFwCBAV_MPlRG4&_nc_zt=23&_nc_ht=scontent.fsgn2-8.fna&_nc_gid=iQGvJID14uimK6ANuwBuKQ&oh=00_AfiVlCAS5d59aagfLkaGAYTNxsnNGhi-dMA3v-QtaCT3ng&oe=690D124D",
     rating: {
-      rate: 3.3,
+      rate: 4.6,
       count: 203,
     },
   },
   {
     id: 10,
-    title: "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
-    price: 109,
-    description:
-      "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+    title: "2025 Happy Doran Day Pajama Set",
+    price: 64.89,
+    description: "Cute pajamas for Doran's birthday",
     category: "electronics",
-    image: "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png",
+    image:
+      "https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/518865161_726056976843630_4666973936003790295_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=67m7eGG_Q4sQ7kNvwHwF_pe&_nc_oc=AdnLCppBZ1_Fv5STheOZder1E3iI0aKyTPj784JMLHjkaNThRmpTnpbmP0ZNQholHyVPnxKbrT_d6poxEptGIdTO&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=CaU0x9J37fq6fecaEvNWzQ&oh=00_Afiw2u9I5XzmZOgI9--GcYfqVlCBvibAx1CYNHdXf7HDVQ&oe=690D26B3",
     rating: {
-      rate: 2.9,
+      rate: 4.5,
       count: 470,
     },
   },
   {
     id: 11,
-    title:
-      "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
-    price: 109,
-    description:
-      "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+    title: "T1 Animal Friends Keycap Keychain",
+    price: 28.99,
+    description: "Lovely keychain, stress relief",
     category: "electronics",
-    image: "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_t.png",
+    image:
+      "https://cafe24img.poxo.com/t1shopgg/web/product/big/202510/86ddbbbfb66b975b04d7ba80e87cd8fc.jpg",
     rating: {
       rate: 4.8,
       count: 319,
@@ -158,13 +158,12 @@ export const products: Product[] = [
   },
   {
     id: 12,
-    title:
-      "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
-    price: 114,
-    description:
-      "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+    title: "T1 ATI Plush",
+    price: 26.85,
+    description: "T1's fire phoenix mascot",
     category: "electronics",
-    image: "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_t.png",
+    image:
+      "https://cafe24img.poxo.com/t1shopgg/web/product/big/202510/bf59b96b9bd1a3c481453b16fa3c1b2e.jpg",
     rating: {
       rate: 4.8,
       count: 400,
