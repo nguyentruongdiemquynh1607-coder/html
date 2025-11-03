@@ -32,28 +32,19 @@ const ListProducts_SP = () => {
           gap: "16px",
         }}
       >
-        {listProduct.map((p) => (
+        {listProduct.map((p /*sửa card*/) => (
           <div
             key={p.id}
             onClick={() => navigate(`/sanpham/${p.id}`)}
-            style={{
-              border: "1px solid #ddd",
-              borderRadius: "8px",
-              padding: "10px",
-              textAlign: "center",
-              cursor: "pointer",
-            }}
+            className="t1-card"
           >
-            <img
-              src={p.image}
-              alt={p.title}
-              style={{ height: "180px", objectFit: "contain" }}
-            />
-            <h4>{p.title}</h4>
-            <p>${p.price}</p>
-            <small>
-              ⭐ {p.rating_rate} | ({p.rating_count} đánh giá)
-            </small>
+            <div className="t1-card-image">
+              <img src={p.image} alt={p.title} />
+            </div>
+            <div className="t1-card-info">
+              <h4>{p.title}</h4>
+              <p>{p.price}$</p>
+            </div>
           </div>
         ))}
       </div>
