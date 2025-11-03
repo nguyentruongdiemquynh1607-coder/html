@@ -2,3 +2,62 @@
   font-family: sans-serif;
   text-align: center;
 }
+.t1-card {
+  background-color: #2a2929;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #222;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.t1-card:hover {
+  border: 1px solid #ff1e1e;
+  transform: translateY(-6px);
+  box-shadow: 0 0 15px rgba(255, 30, 30, 0.3);
+}
+
+/* Hình ảnh sản phẩm */
+.t1-card-image {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  overflow: hidden;
+}
+
+.t1-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.4s ease;
+}
+
+.t1-card:hover .t1-card-image img {
+  transform: scale(1.05);
+}
+
+/* Phần thông tin */
+.t1-card-info {
+  background-color: #2a2929;
+  border-top: 1px solid #ff1e1e;
+  padding: 14px 10px;
+  text-align: left;
+}
+
+.t1-card-info h4 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #f1f1f1;
+  margin-bottom: 4px;
+  line-height: 1.3;
+}
+
+.t1-card-info p {
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 0.85;
+  font-weight: 500;
+}
