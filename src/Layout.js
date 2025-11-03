@@ -21,7 +21,7 @@ const Layout = () => {
             <div class="logo">
               <a href="/">
                 <img
-                  src="https://giadinh.edu.vn/upload/photo/logogdu-02-5690.png"
+                  src="https://static.gosugamers.net/71/b9/22/ab54bc111ecb4c5a8f7391e22376456bfa4c91fb45ea80a4f3e2f6fb1f.png?w=256"
                   alt="Logo"
                 />
               </a>
@@ -46,3 +46,4 @@ const Layout = () => {
 };
 
 export default Layout;
+
