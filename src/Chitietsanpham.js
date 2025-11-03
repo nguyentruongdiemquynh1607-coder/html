@@ -57,18 +57,34 @@ export default function Chitietsanpham() {
           justifyContent: "center",
         }}
       >
-        <img
-          src={product.image}
-          alt={product.title}
+        <div
           style={{
-            width: "400px",
-            height: "400px",
-            objectFit: "contain",
-            backgroundColor: "#fff",
-            borderRadius: "10px",
-            boxShadow: "0 6px 20px rgba(255,0,0,0.15)",
+            width: "420px",
+            height: "420px",
+            background: "#111",
+            borderRadius: "12px",
+            overflow: "hidden",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            boxShadow: "0 8px 25px rgba(255,0,0,0.15)",
           }}
-        />
+        >
+          <img
+            src={product.image}
+            alt={product.title}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              transition: "transform 0.4s ease",
+            }}
+            onMouseEnter={(e) =>
+              (e.currentTarget.style.transform = "scale(1.05)")
+            }
+            onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
+          />
+        </div>
 
         {/*Phần mô tả sản phẩm ở đây */}
         <div style={{ maxWidth: "500px" }}>
