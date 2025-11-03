@@ -6,39 +6,33 @@ const MenuTop = () => {
           <a href="/trang1">Trang 1</a>
         </li>
         <li>
-          <a target="blank" href="/trang2">
-            Trang 2
+          <a target="blank" href="/member">
+            Member
           </a>
         </li>
         <li>
-          <a
-            target="blank"
-            href="https://giadinh.edu.vn/de-an-tuyen-sinh-truong-dai-hoc-gia-dinh-nam-2024"
-          >
-            Đề án TS
+          <a target="blank" href="https://www.t1.gg/">
+            Community
           </a>
         </li>
         <li>
-          <a
-            target="blank"
-            href="https://giadinh.edu.vn/truong-dai-hoc-gia-dinh-thong-bao-3-cong-khai-nam-hoc"
-          >
-            Ba công khai
+          <a target="blank" href="https://www.t1.gg/teams">
+            About
           </a>
         </li>
         <li>
-          <a target="blank" href="https://sinhvien.giadinh.edu.vn/">
-            Xem điểm
+          <a target="blank" href="https://www.t1.gg/socials-1">
+            Socials
           </a>
         </li>
         <li>
-          <a target="blank" href="https://lms.giadinh.edu.vn/">
+          <a target="blank" href="https://t1a.gg/">
             E-learning
           </a>
         </li>
         <li>
-          <a target="blank" href="https://library.giadinh.edu.vn/search">
-            Thư viện số
+          <a target="blank" href="https://www.t1.gg/news">
+            News
           </a>
         </li>
         <li>
