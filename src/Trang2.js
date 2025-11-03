@@ -1,4 +1,4 @@
-const Trang2 = () => {
+const Member = () => {
   const dssv = [
     {
       id: 1,
@@ -123,5 +123,4 @@ const Trang2 = () => {
   );
 };
 
-export default Trang2;
-
+export default Member;
