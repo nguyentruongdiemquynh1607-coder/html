@@ -6,7 +6,7 @@ import Layout from "./Layout";
 //@ts-ignore
 import Trang1 from "./Trang1";
 // @ts-ignore
-import Trang2 from "./Trang2";
+import Member from "./Member";
 // @ts-ignore
 import ListProduct from "./ListProduct.js";
 
@@ -25,7 +25,7 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<ListProducts_SP />} />
           <Route path="trang1" element={<Trang1 />} />
-          <Route path="trang2" element={<Trang2 />} />
+          <Route path="member" element={<Member />} />
           <Route path="sanpham/:id" element={<Chitietsanpham />} />
         </Route>
       </Routes>
