@@ -16,7 +16,7 @@
   --color-gray: #6c757d;
 }
 img {
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
   vertical-align: top;
 }
@@ -615,4 +615,5 @@ a {
     transform: translateY(-10px);
   }
 }
+
 
