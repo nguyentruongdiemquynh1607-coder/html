@@ -22,6 +22,7 @@ const Trang1 = () => {
           display: "inline-block",
           marginBottom: "40px",
           paddingBottom: "10px",
+          borderBottom: "2px solid #b22222",
         }}
       >
         Danh sách sản phẩm
@@ -30,8 +31,8 @@ const Trang1 = () => {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
-          gap: "24px",
+          gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+          gap: "32px",
         }}
       >
         {products.map((p) => (
@@ -39,47 +40,68 @@ const Trang1 = () => {
             key={p.id}
             onClick={() => navigate(`/sanpham/${p.id}`)}
             style={{
-              backgroundColor: "#222",
-              borderRadius: "8px",
+              backgroundColor: "#212020",
+              borderRadius: "16px",
               overflow: "hidden",
               textAlign: "center",
               cursor: "pointer",
-              transition: "transform 0.3s, box-shadow 0.3s",
-              borderBottom: "3px solid #b22222",
+              transition: "transform 0.3s ease, box-shadow 0.3s ease",
+              boxShadow: "0 4px 15px rgba(255,255,255,0.05)",
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.transform = "translateY(-6px)";
-              e.currentTarget.style.boxShadow = "0 6px 15px rgba(255,0,0,0.3)";
+              e.currentTarget.style.transform = "translateY(-8px)";
+              e.currentTarget.style.boxShadow =
+                "0 8px 25px rgba(255, 0, 0, 0.25)";
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.transform = "translateY(0)";
-              e.currentTarget.style.boxShadow = "none";
+              e.currentTarget.style.boxShadow =
+                "0 4px 15px rgba(255,255,255,0.05)";
             }}
           >
-            <img
-              src={p.image}
-              alt={p.title}
+            <div
               style={{
                 width: "100%",
-                height: "240px",
-                objectFit: "contain",
-                backgroundColor: "#fff",
+                height: "300px",
+                backgroundColor: "#000",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                overflow: "hidden",
               }}
-            />
-            <div style={{ padding: "12px" }}>
+            >
+              <img
+                src={p.image}
+                alt={p.title}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  transition: "transform 0.4s ease",
+                }}
+                onMouseEnter={(e) =>
+                  (e.currentTarget.style.transform = "scale(1.05)")
+                }
+                onMouseLeave={(e) =>
+                  (e.currentTarget.style.transform = "scale(1)")
+                }
+              />
+            </div>
+
+            <div style={{ padding: "16px 12px 20px" }}>
               <h4
                 style={{
                   fontSize: "16px",
                   fontWeight: "600",
                   color: "#fff",
-                  marginBottom: "6px",
+                  marginBottom: "8px",
                 }}
               >
                 {p.title}
               </h4>
               <p
                 style={{
-                  color: "#bbb",
+                  color: "#ccc",
                   fontSize: "15px",
                   fontWeight: "500",
                 }}
